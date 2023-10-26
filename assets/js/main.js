@@ -1,3 +1,12 @@
+/*
+ * Author: Daniel Pellegrino
+ * Author URI: https://danieljpellegrino.com
+ * Description: This file contains all of the custom JavaScript for TJS Designs' website.
+ * 
+ * LICENSE: MIT
+ */
+
+// Required for loading in the dropdown menu in the navbar
 document.addEventListener("DOMContentLoaded", function () {
     // make it as accordion for smaller screens
     if (window.innerWidth > 992) {
