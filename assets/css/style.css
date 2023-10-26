@@ -65,6 +65,13 @@ img {
     font-weight: 700;
 }
 
+.brand-image {
+    width: 80px;
+    padding-left: 1.0rem;
+    display: block;
+    margin: 0 auto;
+}
+
 .nav-item {
     padding: 0 0.5rem;
 }
