@@ -65,14 +65,28 @@ img {
     font-weight: 700;
 }
 
+.nav-item {
+    padding: 0 0.5rem;
+}
+
+.nav-link {
+    color: var(--color-base2);
+}
+
 .nav-link:hover {
-    color: var(--color-brand);
+    color: var(--color-body);
+}
+
+.nav-section {
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 /* Moves the menu section of the navigation bar to the left */
 .navbar-nav {
     margin-left: auto;
-
 }
 
 .dropdown-menu {
