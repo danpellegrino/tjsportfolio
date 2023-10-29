@@ -1,7 +1,7 @@
 /*
  * Author: Daniel Pellegrino
  * Author URI: https://danieljpellegrino.com
- * Description: This is the main stylesheet for the theme.
+ * Description: This is the main stylesheet for the theme for TJS Designs' Portfolio Website.
  *
  * LICENSE: MIT
  */
@@ -9,120 +9,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-    --color-body: #d2d2d2;
-    --color-heading: #eef3db;
-    --color-base: #000000;
-    --color-base2: #fefefe;
-    --color-brand: #c68dff;
-    --color-brand2: #731fc7;
+    --color-body: #ffffff;
+    --color-heading: #000000;
+    --color-base: #fdfdfd;
+    --color-base2: #dcdcdc;
+    --color-text: #000000;
+    --color-text2: #ebebeb;
+    --color-brand: #f8bfff;
     --sidebar-width: 240px;
     --font-base: 'Open Sans';
 }
 
 body {
-    background-color: var(--color-base2);
-    color: var(--color-body);
+    background-color: var(--color-body);
+    color: var(--color-text);
     font-family: var(--font-base), sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: var(--color-heading);
+    color: var(--color-text);
     font-weight: 700;
 }
 
 a {
     text-decoration: none;
-    color: var(--color-body);
+    color: var(--color-text);
     transition: all 0.4s ease;
 }
 
 a:hover {
-    color: var(--color-brand);
+    color: var(--color-text2);
 }
-
-img {
-    width: 100%;
-}
-
-/* == NAVBAR == */
-
-/* ===== Desktop View ===== */
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}
-/* ===== //Desktop View ===== */
-
-.navbar {
-    padding: 0.6rem;
-    background-color: var(--color-base);
-}
-
-.navbar-brand {
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.brand-image {
-    width: 80px;
-    padding-left: 1.0rem;
-    display: block;
-    margin: 0 auto;
-}
-
-.nav-item {
-    padding: 0 0.5rem;
-}
-
-.nav-link {
-    color: var(--color-base2);
-}
-
-.nav-link:hover {
-    color: var(--color-body);
-}
-
-.nav-section {
-    font-size: 1.1rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-}
-
-/* Moves the menu section of the navigation bar to the left */
-.navbar-nav {
-    margin-left: auto;
-}
-
-.dropdown-menu {
-    right: 0;       /* Fixes dropdown from going off on the right side of the screen when hovering */
-    min-width: 90px;
-    max-width: 90px;
-}
-.dropdown-item:hover {
-    background-color: var(--color-body);
-}
-
-/* Removes the ability to open image */
-.socials-tab-image,.social-image {
-    pointer-events: none
-}
-
-/* Image for the internet icon to dropdown the social media links */
-.socials-tab-image {
-    width: 33px;
-    height: 33px;
-}
-
-/* Images for Social Medias that are below the dropdown */
-.social-image {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto;
-}
-
-
-/* == //NAVBAR == */

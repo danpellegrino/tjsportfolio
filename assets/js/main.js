@@ -6,38 +6,12 @@
  * LICENSE: MIT
  */
 
-// Required for loading in the dropdown menu in the navbar
-document.addEventListener("DOMContentLoaded", function () {
-    // make it as accordion for smaller screens
-    if (window.innerWidth > 992) {
+$(document).ready(function () {
+  $('.dropdown').on('show.bs.dropdown', function () {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+  });
 
-        document.querySelectorAll('.navbar .nav-item').forEach(function (everyitem) {
-
-            everyitem.addEventListener('mouseover', function (e) {
-
-                let el_link = this.querySelector('a[data-bs-toggle]');
-
-                if (el_link != null) {
-                    let nextEl = el_link.nextElementSibling;
-                    el_link.classList.add('show');
-                    nextEl.classList.add('show');
-                }
-
-            });
-            everyitem.addEventListener('mouseleave', function (e) {
-                let el_link = this.querySelector('a[data-bs-toggle]');
-
-                if (el_link != null) {
-                    let nextEl = el_link.nextElementSibling;
-                    el_link.classList.remove('show');
-                    nextEl.classList.remove('show');
-                }
-
-
-            })
-        });
-
-    }
-    // end if innerWidth
+  $('.dropdown').on('hide.bs.dropdown', function () {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp(300);
+  });
 });
-// DOMContentLoaded  end
