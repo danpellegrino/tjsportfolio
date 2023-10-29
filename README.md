@@ -6,6 +6,7 @@ This is a personal portfolio website created for showcasing my friend's skills a
 - HTML
 - CSS
 - Bootstrap
+- JQuery
 
 ## Key Features:
 - Responsive design for various screen sizes.
