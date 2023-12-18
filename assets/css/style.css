@@ -40,3 +40,13 @@ a {
 a:hover {
     color: var(--color-text2);
 }
+
+h1 {
+    font-size: 9rem;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 8rem;
+    font-weight: 500;
+}
