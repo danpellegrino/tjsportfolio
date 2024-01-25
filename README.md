@@ -1,22 +1,71 @@
-# Portfolio Website
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is a personal portfolio website created for showcasing my friend's skills and projects. It's built using HTML, CSS, and Bootstrap, providing a clean and responsive design to highlight their work effectively.
+## Getting Started
 
-## Technologies Used:
-- HTML
-- CSS
-- Bootstrap
+First, run the development server:
 
-## Key Features:
-- Responsive design for various screen sizes.
-- Clean and modern layout.
-- Showcase of projects, skills, and contact information.
-- Easy navigation and user-friendly experience.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Feel free to explore the website and get inspired by the projects showcased. If you have any feedback or questions, don't hesitate to reach out.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**View the website:** [Your Portfolio Website Link Here](https://www.yourportfolio.com)
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## License
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code as long as you provide proper attribution and include the original license.
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+npx create-next-app@latest .
+
+npx shadcn-ui@latest init
+
+npm i framer-motion lucide-react next-themes react-countup react-icons swiper
+
+npx shadcn-ui@latest add badge
+
+npx shadcn-ui@latest add button
+
+npx shadcn-ui@latest add card
+
+npx shadcn-ui@latest add form
+
+npx shadcn-ui@latest add input
+
+npx shadcn-ui@latest add label
+
+npx shadcn-ui@latest add sheet
+
+npx shadcn-ui@latest add tabs
+
+npx shadcn-ui@latest add textarea
+
+npm i @radix-ui/react-icons
+
+npm install babel-plugin-macros
+
+npm i --save @fortawesome/fontawesome-svg-core
+
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons

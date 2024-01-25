@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 240 19% 16%;
+      --card: 0 0% 100%;
+      --card-foreground: 240 19% 16%;
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+      --primary: 215.7 100% 64.1%;
+      --primary-foreground: 300 0% 100%;
+      --secondary: 223.3 96.9% 74.5%;
+      --secondary-foreground: 300 0% 100%;
+      --tertiary: 27 82% 98%;
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 224.7 55.7% 61.2%;
+      --accent: 237 9% 96%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+      --border: 8 82% 92%;
+      --input: 8 82% 92%;
+      --ring: 9 99% 67%;
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+      --card: 240 19% 16%;
+      --card-foreground: 300 0% 100%;
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+      --primary: 215.5 100% 72.4%;
+      --primary-foreground: 300 0% 100%;
+      --secondary: 222.9 95.5% 82.1%;
+      --secondary-foreground: 300 0% 100%;
+      --tertiary: 237 22% 20%;
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 224.7 100% 73.9%;
+      --accent: 240 19% 16%;
+      --accent-foreground: 300 0% 100%;
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+      --border: 237 22% 23%;
+      --input: 237 32% 23%;
+      --ring: 8 99% 67%;
+    }
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.h1 {
+  @apply text-5xl xl:text-[72px] xl:leading-[88px] tracking-[-2px] font-bold;
+}
+
+.subtitle {
+  @apply text-muted-foreground text-[17px] mb-8 font-light xl:text-xl;
+}
+
+.badge {
+  @apply z-10 w-[200px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
+}
