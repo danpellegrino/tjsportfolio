@@ -11,15 +11,15 @@ import Link from 'next/link';
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.upwork.com/freelancers/~015d66e8259ccfeb32',
     name: <FontAwesomeIcon icon={faUpwork} />,
   },
   {
-    path: '/',
+    path: 'http://instagram.com/tjs_designss',
     name: <FontAwesomeIcon icon={faInstagram} />,
   },
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/tyler-senecal-511b0824a/',
     name: <FontAwesomeIcon icon={faLinkedin} />,
   },
 ];
@@ -29,7 +29,7 @@ const Socials = ({ containerStyles, iconsStyles }) => {
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => {
         return (
-          <Link href={icon.path} key={index}>
+          <Link href={icon.path} key={index} target="_blank">
             <div className={`${iconsStyles}`}>{icon.name}</div>
           </Link>
         );
