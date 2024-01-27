@@ -280,7 +280,7 @@ const About = () => {
                           const {name} = item;
                           return (
                             <div
-                              className='w-2/4 text-center xl:text-left mx-auto xl:mx-0'
+                              className='w-2/4 mb-2.5 text-center xl:text-left mx-auto xl:mx-0'
                               key={index}
                             >
                               <div className='font-medium'>{name}</div>
