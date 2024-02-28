@@ -7,7 +7,7 @@ const Cta = () => {
       <div className="container mx-auto">
         <div className='flex flex-col items-center'>
             <h2 className='h2 max-w-xl text-center mb-8'>
-                Prepared to turn your ideas into reality? I'm here to help
+                Lorem ipsum (CTA text here)
             </h2>
             <Link href='/contact'>
             <Button className="w-[165px]">Contact me</Button>
