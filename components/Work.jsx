@@ -21,7 +21,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -30,7 +30,7 @@ const projectData = [
         category: 'logo',
         name: 'random ahh logo',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -39,7 +39,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -48,7 +48,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -57,7 +57,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -66,7 +66,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -75,7 +75,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -84,7 +84,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
@@ -93,7 +93,7 @@ const projectData = [
         category: 'poster',
         name: 'SGU Poster Design',
         description:
-            'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quos.',
+            'Lorem ipsum dolor sit amet consectetur adipiscing.',
         link: '/',
         drive: '/'
     },
