@@ -22,14 +22,14 @@ import { Pagination } from "swiper/modules";
 const reviewsData = [
   {
     avatar: "/reviews/avatar-1.png",
-    name: "Richard Thompson",
+    name: "John Doe",
     job: "CEO at Apple",
     review:
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisquam quos quo voluptas tempora delectus dicta.",
   },
   {
     avatar: "/reviews/avatar-2.png",
-    name: "Evelyn Anderson",
+    name: "John Doe",
     job: "CC Brunch Chef",
     review:
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisquam quos quo voluptas tempora delectus dicta.",
@@ -50,7 +50,7 @@ const reviewsData = [
   },
   {
     avatar: "/reviews/avatar-5.png",
-    name: "Emily Smith",
+    name: "John Doe",
     job: "SGU creative design coordinator",
     review:
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisquam quos quo voluptas tempora delectus dicta.",
