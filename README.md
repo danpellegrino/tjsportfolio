@@ -1,6 +1,10 @@
 # TJSPortfolio
 
 <p align="center">
+  <img src="public/front.png" alt="Next.js Portfolio Website">
+</p>
+
+<p align="center">
   <img alt="License" src="https://img.shields.io/github/license/chhpt/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
   </a>
 </p>
