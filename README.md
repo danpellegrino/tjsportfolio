@@ -1,73 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TJSPortfolio
 
-## Getting Started
+<p align="center">
+  <img alt="License" src="https://img.shields.io/github/license/chhpt/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
+  </a>
+</p>
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a portfolio website for my client. It showcases their work and provides information about their skills and experience. Feel free to explore the website and get in touch with my client through the provided contact information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Next.js 14** - Open-source React framework
+- **Tailwind CSS 3** - A utility-first CSS framework
+- **shadcn-ui** - An accessible and customizable components library
+- **Prettier** - Opinionated code formatter
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you prefer you can clone this repository and run the following commands inside the project folder:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. `npm install` or `yarn`;
+2. `yarn dev`;
 
-## Deploy on Vercel
+To view the project open `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork this repository;
+2. Create your branch: `git checkout -b my-new-feature`;
+3. Commit your changes: `git commit -m 'Add some feature'`;
+4. Push to the branch: `git push origin my-new-feature`.
 
+## License
 
-npx create-next-app@latest .
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more information.
 
-npx shadcn-ui@latest init
+## Contact
 
-npm i framer-motion lucide-react next-themes react-countup react-icons swiper
-
-npx shadcn-ui@latest add badge
-
-npx shadcn-ui@latest add button
-
-npx shadcn-ui@latest add card
-
-npx shadcn-ui@latest add form
-
-npx shadcn-ui@latest add input
-
-npx shadcn-ui@latest add label
-
-npx shadcn-ui@latest add sheet
-
-npx shadcn-ui@latest add tabs
-
-npx shadcn-ui@latest add textarea
-
-npm i @radix-ui/react-icons
-
-npm install babel-plugin-macros
-
-npm i --save @fortawesome/fontawesome-svg-core
-
-npm i --save @fortawesome/free-solid-svg-icons
-npm i --save @fortawesome/free-regular-svg-icons
-npm i --save @fortawesome/free-brands-svg-icons
-
-npm i sharp
+- Email: contact@danieljpellegrino.com
+- GitHub: [danpellegrino](https://github.com/danpellegrino)
