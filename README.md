@@ -9,15 +9,6 @@
 
 This is a portfolio website for my client. It showcases their work and provides information about their skills and experience. Feel free to explore the website and get in touch with my client through the provided contact information.
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Features
 
 - **Next.js 14** - Open-source React framework
