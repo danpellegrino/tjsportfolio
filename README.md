@@ -1,23 +1,46 @@
-# Portfolio Website
+# TJSPortfolio
 
-This is a personal portfolio website created for showcasing my friend's skills and projects. It's built using HTML, CSS, and Bootstrap, providing a clean and responsive design to highlight their work effectively.
+<p align="center">
+  <img src="public/front.png" alt="Next.js Portfolio Website">
+</p>
 
-## Technologies Used:
-- HTML
-- CSS
-- Bootstrap
-- JQuery
+<p align="center">
+  <img alt="License" src="https://img.shields.io/github/license/chhpt/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
+  </a>
+</p>
 
-## Key Features:
-- Responsive design for various screen sizes.
-- Clean and modern layout.
-- Showcase of projects, skills, and contact information.
-- Easy navigation and user-friendly experience.
+## Description
 
-Feel free to explore the website and get inspired by the projects showcased. If you have any feedback or questions, don't hesitate to reach out.
+This is a portfolio website for my client. It showcases their work and provides information about their skills and experience. Feel free to explore the website and get in touch with my client through the provided contact information.
 
-**View the website:** [Your Portfolio Website Link Here](https://www.yourportfolio.com)
+## Features
+
+- **Next.js 14** - Open-source React framework
+- **Tailwind CSS 3** - A utility-first CSS framework
+- **shadcn-ui** - An accessible and customizable components library
+- **Prettier** - Opinionated code formatter
+
+## Installation
+
+If you prefer you can clone this repository and run the following commands inside the project folder:
+
+1. `npm install` or `yarn`;
+2. `yarn dev`;
+
+To view the project open `http://localhost:3000`.
+
+## Contributing
+
+1. Fork this repository;
+2. Create your branch: `git checkout -b my-new-feature`;
+3. Commit your changes: `git commit -m 'Add some feature'`;
+4. Push to the branch: `git push origin my-new-feature`.
 
 ## License
 
-This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code as long as you provide proper attribution and include the original license.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+- Email: contact@danieljpellegrino.com
+- GitHub: [danpellegrino](https://github.com/danpellegrino)
