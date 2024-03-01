@@ -1,0 +1,52 @@
+/*
+ * Author: Daniel Pellegrino
+ * Author URI: https://danieljpellegrino.com
+ * Description: This is the main stylesheet for the theme for TJS Designs' Portfolio Website.
+ *
+ * LICENSE: MIT
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --color-body: #ffffff;
+    --color-heading: #000000;
+    --color-base: #fdfdfd;
+    --color-base2: #dcdcdc;
+    --color-text: #000000;
+    --color-text2: #ebebeb;
+    --color-brand: #f8bfff;
+    --sidebar-width: 240px;
+    --font-base: 'Open Sans';
+}
+
+body {
+    background-color: var(--color-body);
+    color: var(--color-text);
+    font-family: var(--font-base), sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-text);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-text2);
+}
+
+h1 {
+    font-size: 9rem;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 8rem;
+    font-weight: 500;
+}
