@@ -1,7 +1,16 @@
 "use client";
+
+import { motion } from 'framer-motion';
+
 import React, { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import ProjectCard from "@/components/ProjectCard";
+
+// Variants
+const variants = {
+  hidden: { opacity: 0 },
+  enter: { opacity: 1 },
+};
 
 const projectData = [
   {
@@ -121,14 +130,21 @@ const Projects = () => {
             {filteredProjects.map((project, index) => {
               return (
                 <TabsContent value={category} key={index}>
-                  <ProjectCard project={project} />
+                  <motion.main
+                    variants={variants}
+                    initial='hidden'
+                    animate='enter'
+                    transition={{ type: 'linear', delay: 0.0, duration: 0.4 }}
+                  >
+                    <ProjectCard project={project} />
+                  </motion.main>
                 </TabsContent>
               );
             })}
           </div>
         </Tabs>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 
