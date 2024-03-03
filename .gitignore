@@ -10,6 +10,7 @@
 /public/work/poster
 /public/work/video
 /public/work/extra
+/public/work/thumbnail
 
 # testing
 /coverage
@@ -39,3 +40,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# next-video
+public/work/video/*
+!public/work/video/*.json
+!public/work/video/*.js
+!public/work/video/*.ts
+public/_next-video
+
+# next-video
+public/work/video/*
+!public/work/video/*.json
+!public/work/video/*.js
+!public/work/video/*.ts
+public/_next-video
