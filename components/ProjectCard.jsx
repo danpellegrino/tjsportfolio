@@ -23,6 +23,18 @@ const ProjectCard = ({ project }) => {
                             height={project.height || project.width || 250}
                             alt={project.name}
                             priority
+                            quality={100}
+                        />
+                        {/* overlay (prevent click on image) */}
+                        <div
+                            style={{
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                width: '100%',
+                                height: '100%',
+                                display: 'flex',
+                            }}
                         />
 
                         {/* btn links */}
@@ -61,6 +73,18 @@ const ProjectCard = ({ project }) => {
                         >
                             <source src={project.video} type='video/mp4' />
                         </video>
+                        {/* overlay (prevent click on video) */}
+                        <div
+                            style={{
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                width: '100%',
+                                height: '100%',
+                                display: 'flex',
+                            }}
+                        />
+
                         {/* btn links */}
                         <div className='flex gap-x-4'>
                             <Link
