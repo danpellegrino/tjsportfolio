@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
                             src={project.image}
                             width={project.width || project.height || 247}
                             height={project.height || project.width || 250}
-                            alt=''
+                            alt={project.name}
                             priority
                         />
 
@@ -53,11 +53,11 @@ const ProjectCard = ({ project }) => {
                     <div className='relative w-full h-[300px] flex items-center justify-center bg-black overflow-hidden'>
                         <video
                             className='absolute w-full h-full object-cover'
+                            alt={project.name}
                             autoPlay
                             loop
                             muted
                             playsInline
-                            priority
                         >
                             <source src={project.video} type='video/mp4' />
                         </video>
