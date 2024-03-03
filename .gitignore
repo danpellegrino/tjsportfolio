@@ -6,6 +6,11 @@
 .pnp.js
 .yarn/install-state.gz
 
+/public/work/logo
+/public/work/poster
+/public/work/video
+/public/work/extra
+
 # testing
 /coverage
 
