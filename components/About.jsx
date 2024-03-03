@@ -121,7 +121,7 @@ const About = () => {
   };
 
   return (
-    <section className='xl:h-[860px] pb-12 xl:py-36'>
+    <section className='xl:h-[860px] pb-12 md:py-12 lg:py-36'>
       <div className='container mx-auto'>
         <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>
           About me
@@ -155,7 +155,7 @@ const About = () => {
                     </p>
                     {/* Icons */}
                     <div className='grid xl:grid-cols-2 gap-4 mb-12'>
-                      {infoData.map((item, index)=> {
+                      {infoData.map((item, index) => {
                         return (
                           <div
                             className='flex items-center gap-x-4 mx-auto xl:mx-0'
@@ -195,7 +195,7 @@ const About = () => {
                         </div>
                         {/* List */}
                         <div className='flex flex-col gap-y-8'>
-                          {getData(qualificationData, 'experience').data.map((item, index)=> {
+                          {getData(qualificationData, 'experience').data.map((item, index) => {
                             const { company, role, years } = item;
                             return (
                               <div
@@ -226,14 +226,14 @@ const About = () => {
                       {/* Education */}
                       <div className='flex flex-col gap-y-6'>
                         <div className='flex gap-x-4 items-center text-[22px] text-primary'>
-                          <GraduationCap size={28}/>
+                          <GraduationCap size={28} />
                           <h4 className='capitalize font-medium'>
                             {getData(qualificationData, 'education').title}
                           </h4>
                         </div>
                         {/* List */}
                         <div className='flex flex-col gap-y-8'>
-                          {getData(qualificationData, 'education').data.map((item, index)=> {
+                          {getData(qualificationData, 'education').data.map((item, index) => {
                             const { university, qualification, years } = item;
                             return (
                               <div
@@ -276,8 +276,8 @@ const About = () => {
                       <div className='border-b border-border mb-4'></div>
                       {/* Skill List */}
                       <div>
-                        {getData(skillData, 'skills').data.map((item, index)=> {
-                          const {name} = item;
+                        {getData(skillData, 'skills').data.map((item, index) => {
+                          const { name } = item;
                           return (
                             <div
                               className='w-2/4 mb-2.5 text-center xl:text-left mx-auto xl:mx-0'
@@ -297,7 +297,7 @@ const About = () => {
                       <div className='border-b border-border mb-4'></div>
                       {/* Tool List */}
                       <div className='flex gap-x-8 justify-center xl:justify-start'>
-                        {getData(skillData, 'tools').data.map((item, index)=> {
+                        {getData(skillData, 'tools').data.map((item, index) => {
                           const { imgPath } = item;
                           return (
                             <div key={index}>
