@@ -143,7 +143,7 @@ const About = () => {
                 <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>Skills</TabsTrigger>
               </TabsList>
               {/* Tabs Content */}
-              <div className='text-lg mt-12 x:mt-8'>
+              <div className='text-lg mt-12 xl:mt-8'>
                 {/* Personal */}
                 <TabsContent value='personal'>
                   <div className='text-center xl:text-left'>
@@ -154,7 +154,7 @@ const About = () => {
                       modern graphic designer
                     </p>
                     {/* Icons */}
-                    <div className='grid xl:grid-cols-2 gap-4 mb-12'>
+                    <div className='grid xl:grid-cols-2 gap-4 mb-4'>
                       {infoData.map((item, index) => {
                         return (
                           <div
