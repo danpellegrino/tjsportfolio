@@ -2,6 +2,13 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download, Send } from 'lucide-react';
 
+import localFont from 'next/font/local'
+const myFont = localFont({
+  src: '../fonts/kimberley.otf',
+  weight: '200',
+  style: 'normal',
+})
+
 import {
   RiBriefcase4Fill,
   RiTeamFill,
@@ -25,7 +32,7 @@ const Hero = () => {
             <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>
               Graphic Designer
             </div>
-            <h1 className='h1 mb-4 text-white'>Hello, my name is Tyler Senecal</h1>
+            <h1 className={`${myFont.className} h1 mb-4 text-white antialiased font-sans`}>Hello, my name is Tyler Senecal</h1>
             <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
               I am a graphic designer based in Saratoga Springs,
               New York specializing in marketing, branding, and
@@ -84,7 +91,7 @@ const Hero = () => {
             <DevImg
               containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom'
               imgSrc='/hero/developer.png'
-            /> 
+            />
           </div>
         </div>
         {/* Icons */}

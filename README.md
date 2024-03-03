@@ -19,6 +19,7 @@ This is a portfolio website for my client. It showcases their work and provides 
 - **Tailwind CSS 3** - A utility-first CSS framework
 - **shadcn-ui** - An accessible and customizable components library
 - **Prettier** - Opinionated code formatter
+- **[Kimberley](https://typodermicfonts.com/kimberley/)** - A nice font
 
 ## Installation
 
