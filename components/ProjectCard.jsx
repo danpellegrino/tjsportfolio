@@ -57,6 +57,7 @@ const ProjectCard = ({ project }) => {
                             loop
                             muted
                             playsInline
+                            priority
                         >
                             <source src={project.video} type='video/mp4' />
                         </video>
