@@ -7,6 +7,8 @@ import Footer from '@/components/Footer';
 // Theme Provider
 import { ThemeProvider } from '@/components/ThemeProvider';
 
+import { Toaster } from "@/components/ui/toaster"
+
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
@@ -21,6 +23,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute='class' defaultTheme='light'>
           <Header />
           {children}
+          <Toaster />
           <Footer />
         </ThemeProvider>
       </body>

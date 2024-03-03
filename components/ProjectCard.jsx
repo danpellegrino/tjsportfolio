@@ -4,7 +4,12 @@ import { Card, CardHeader } from "./ui/card";
 import { ExpandIcon, Share2Icon } from 'lucide-react';
 import { Badge } from "./ui/badge";
 
+import { useToast } from "@/components/ui/use-toast"
+
 const ProjectCard = ({ project }) => {
+
+    const { toast } = useToast()
+
     return (
         <Card className='group overflow-hidden relative'>
             <CardHeader className='p-0'>
@@ -29,7 +34,12 @@ const ProjectCard = ({ project }) => {
                                 <ExpandIcon className='text-white' />
                             </Link>
                             <button
-                                onClick={() => navigator.clipboard.writeText(project.url)}
+                                onClick={() => {
+                                    navigator.clipboard.writeText(project.url)
+                                    toast({
+                                        title: "Project URL copied to clipboard!",
+                                    })
+                                }}
                                 href={project.url}
                                 className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'
                             >
@@ -59,7 +69,12 @@ const ProjectCard = ({ project }) => {
                                 <ExpandIcon className='text-white' />
                             </Link>
                             <button
-                                onClick={() => navigator.clipboard.writeText(project.url)}
+                                onClick={() => {
+                                    navigator.clipboard.writeText(project.url)
+                                    toast({
+                                        title: "Project URL copied to clipboard!",
+                                    })
+                                }}
                                 href={project.url}
                                 className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'
                             >
