@@ -1,9 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Card, CardHeader } from "./ui/card";
-import { Link2Icon } from 'lucide-react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons";
+import { ExpandIcon, Share2Icon } from 'lucide-react';
 import { Badge } from "./ui/badge";
 
 const ProjectCard = ({ project }) => {
@@ -13,7 +11,6 @@ const ProjectCard = ({ project }) => {
                 {/* image */}
                 {project.image &&
                     <div className='relative w-full h-[300px] flex items-center justify-center bg-primary/15 dark:bg-secondary/20 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden'>
-                        {/* image */}
                         <Image
                             className={`absolute drop-shadow-2xl`}
                             src={project.image}
@@ -26,34 +23,49 @@ const ProjectCard = ({ project }) => {
                         {/* btn links */}
                         <div className='flex gap-x-4'>
                             <Link
-                                href={project.link}
+                                href={project.url}
                                 className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'
                             >
-                                <Link2Icon className='text-white' />
+                                <ExpandIcon className='text-white' />
                             </Link>
-                            <Link
-                                href={project.drive}
+                            <button
+                                onClick={() => navigator.clipboard.writeText(project.url)}
+                                href={project.url}
                                 className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'
                             >
-                                <FontAwesomeIcon icon={faGoogleDrive} className='text-white' />
-                            </Link>
+                                <Share2Icon className='text-white' />
+                            </button>
                         </div>
                     </div>
                 }
                 {/* video */}
                 {project.video &&
-                    <div className='relative w-full h-[300px] flex items-center justify-center bg-primary/15 dark:bg-secondary/20 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden'>
-                        {/* image */}
+                    <div className='relative w-full h-[300px] flex items-center justify-center bg-black overflow-hidden'>
                         <video
-                            className={`absolute shadow-2xl`}
-                            width={project.width || project.height || 247}
-                            height={project.height || project.width || 250}
-                            controls
-                            preload='metadata'
+                            className='absolute w-full h-full object-cover'
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
                         >
-                            <source src={project.video} type="video/mp4" />
-                            Your browser does not support the video tag.
+                            <source src={project.video} type='video/mp4' />
                         </video>
+                        {/* btn links */}
+                        <div className='flex gap-x-4'>
+                            <Link
+                                href={project.url}
+                                className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'
+                            >
+                                <ExpandIcon className='text-white' />
+                            </Link>
+                            <button
+                                onClick={() => navigator.clipboard.writeText(project.url)}
+                                href={project.url}
+                                className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'
+                            >
+                                <Share2Icon className='text-white' />
+                            </button>
+                        </div>
                     </div>
                 }
             </CardHeader>

@@ -20,8 +20,7 @@ const projectData = [
     category: "logo",
     name: "Apocalypse Week Logo",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/logo/LiquadosB.svg",
@@ -30,8 +29,7 @@ const projectData = [
     category: "logo",
     name: "Liquados Logo",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/InterstellarPoster.png",
@@ -40,8 +38,7 @@ const projectData = [
     category: "poster",
     name: "Interstellar Poster Concept",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/ExecutiveDebateSGU2024.png",
@@ -50,8 +47,7 @@ const projectData = [
     category: "poster",
     name: "SGU Executive Debate Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/Fall 2022 Senate Interest Form Poster.png",
@@ -60,8 +56,7 @@ const projectData = [
     category: "poster",
     name: "SGU Senate Interest Form Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/Hiring Org Heads.png",
@@ -70,8 +65,7 @@ const projectData = [
     category: "poster",
     name: "SGU Organizational Head Hiring Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/Spring 2023 Election Poster.png",
@@ -80,8 +74,7 @@ const projectData = [
     category: "poster",
     name: "SGU Spring 2023 Election Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/Positions.png",
@@ -90,8 +83,7 @@ const projectData = [
     category: "poster",
     name: "SGU PR Positions Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/TFT Org Head Post.png",
@@ -100,8 +92,7 @@ const projectData = [
     category: "poster",
     name: "The Factory Times Org Head Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/TurkeyDonation.png",
@@ -110,8 +101,7 @@ const projectData = [
     category: "poster",
     name: "SGU Türkiye Donation Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/WCM Org Head Post.png",
@@ -120,8 +110,7 @@ const projectData = [
     category: "poster",
     name: "Wildcat Media Org Head Instagram Post",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/WCM Org Head Poster.png",
@@ -130,8 +119,7 @@ const projectData = [
     category: "poster",
     name: "Wildcat Media Org Head Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/WEB Org Head Post.png",
@@ -140,8 +128,7 @@ const projectData = [
     category: "poster",
     name: "Wildcat Events Board Org Head Poster",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     video: "/work/video/30secCommercial.mp4",
@@ -150,8 +137,7 @@ const projectData = [
     category: "video",
     name: "30 Second Rockstar Commercial",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     video: "/work/video/KeepClearFinal.mp4",
@@ -160,8 +146,7 @@ const projectData = [
     category: "video",
     name: "SFM Keep Clear Animation",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     image: "/work/poster/SFMKeepClear2.png",
@@ -170,8 +155,7 @@ const projectData = [
     category: "poster",
     name: "Keep Clear Poster Design",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     video: "/work/video/TheConductorsExpress.mp4",
@@ -180,15 +164,13 @@ const projectData = [
     category: "video",
     name: "The Conductor's Express Edit",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
   {
     category: "extra",
     name: "extra placeholder",
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    link: "/",
-    drive: "/",
+    url: "/",
   },
 ];
 
