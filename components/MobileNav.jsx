@@ -16,8 +16,8 @@ const MobileNav = () => {
           <div className='flex flex-col items-center gap-y-32'>
             <Logo />
             <Nav
-              containerStyles='flex flex-col items-center gap-y-6'
-              linkStyles='text-2xl'
+              containerStyles='flex flex-col absolute items-center gap-y-6 lg:gap-y-12 top-[35%]'
+              linkStyles='text-2xl md:text-3xl lg:text-4xl'
             />
           </div>
           <Socials containerStyles='flex gap-x-10' iconsStyles='text-2xl' />
