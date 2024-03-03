@@ -28,6 +28,7 @@ Here are some upcoming features that we're planning to implement. Stay tuned!
 - [x] Feature 1
   - Create a basic template for the website
 - [ ] Feature 2
+  - Create an image/video viewer
   - Design custom assets for the website
     - Develop a color scheme
     - Create a custom gradient scroll progress bar
