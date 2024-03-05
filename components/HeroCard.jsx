@@ -64,6 +64,7 @@ const HeroCard = ({ project }) => {
                     </div>
                 }
                 {/* video */}
+                {/*
                 {project.video &&
                     <div className='relative w-full xxl:h-[570px] xl:h-[400px] flex items-center justify-center bg-black overflow-hidden'>
                         <video
@@ -76,7 +77,9 @@ const HeroCard = ({ project }) => {
                         >
                             <source src={project.video} type='video/mp4' />
                         </video>
-                        {/* overlay (prevent click on video) */}
+                */}
+                {/* overlay (prevent click on video) */}
+                {/*
                         <div
                             style={{
                                 position: 'absolute',
@@ -94,8 +97,10 @@ const HeroCard = ({ project }) => {
                                 }
                             }}
                         />
+                */}
 
-                        {/* btn links */}
+                {/* btn links */}
+                {/*
                         <div className='flex gap-x-10 xxl:gap-x-16 xxl2:gap-x-20'>
                             <button
                                 onClick={() => {
@@ -129,7 +134,7 @@ const HeroCard = ({ project }) => {
                             </button>
                         </div>
                     </div>
-                }
+                            */}
             </CardHeader>
         </Card>
     );

@@ -37,6 +37,7 @@ const projectData = [
     url: "/",
     frontPage: true,
   },
+  /*
   {
     video: "/work/video/KeepClearFinal.mp4",
     width: 640,
@@ -47,6 +48,7 @@ const projectData = [
     url: "/",
     frontPage: true,
   },
+  */
   {
     image: "/work/logo/LiquadosB.svg",
     width: 247,
@@ -167,6 +169,7 @@ const projectData = [
     url: "/",
     frontPage: false,
   },
+  /*
   {
     video: "/work/video/30secCommercial.mp4",
     width: 640,
@@ -177,6 +180,7 @@ const projectData = [
     url: "/",
     frontPage: false,
   },
+  */
   {
     image: "/work/poster/SFMKeepClear2.png",
     width: 175,
@@ -187,6 +191,7 @@ const projectData = [
     url: "/",
     frontPage: false,
   },
+  /*
   {
     video: "/work/video/TheConductorsExpress.mp4",
     width: 640,
@@ -196,6 +201,14 @@ const projectData = [
     description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
     url: "/",
     frontPage: true,
+  },
+  */
+  {
+    category: "video",
+    name: "video placeholder",
+    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    url: "/",
+    frontPage: false,
   },
   {
     category: "extra",

@@ -61,6 +61,7 @@ const ProjectCard = ({ project }) => {
                     </div>
                 }
                 {/* video */}
+                {/*
                 {project.video &&
                     <div className='relative w-full h-[300px] flex items-center justify-center bg-black overflow-hidden'>
                         <video
@@ -73,7 +74,9 @@ const ProjectCard = ({ project }) => {
                         >
                             <source src={project.video} type='video/mp4' />
                         </video>
-                        {/* overlay (prevent click on video) */}
+                */}
+                {/* overlay (prevent click on video) */}
+                {/*
                         <div
                             style={{
                                 position: 'absolute',
@@ -84,8 +87,9 @@ const ProjectCard = ({ project }) => {
                                 display: 'flex',
                             }}
                         />
-
-                        {/* btn links */}
+                        */}
+                {/* btn links */}
+                {/*
                         <div className='flex gap-x-4'>
                             <Link
                                 href={project.url}
@@ -107,6 +111,7 @@ const ProjectCard = ({ project }) => {
                             </button>
                         </div>
                     </div>
+                    */
                 }
             </CardHeader>
             <div className='h-full px-8 py-6'>
@@ -116,7 +121,7 @@ const ProjectCard = ({ project }) => {
                 <h4 className='h4 mb-1'>{project.name}</h4>
                 <p className='text-muted-foreground text-lg'>{project.description}</p>
             </div>
-        </Card>
+        </Card >
     );
 };
 
