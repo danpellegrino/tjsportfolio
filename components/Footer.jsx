@@ -18,8 +18,8 @@ const Footer = () => {
           </div>
           {/* creator */}
           <div className="text-white/70">
-            Website created by <Link className="hover:text-white transition-all" href="https://danieljpellegrino.com">Daniel Pellegrino
-            <LinkIcon className="inline-block ml-1 w-4 h-4" />
+            Website created by <Link target="_blank" className="hover:text-white transition-all" href="https://danieljpellegrino.com">Daniel Pellegrino
+              <LinkIcon className="inline-block ml-1 w-4 h-4" />
             </Link>
           </div>
         </div>

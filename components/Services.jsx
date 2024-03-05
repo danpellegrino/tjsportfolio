@@ -1,4 +1,4 @@
-import { GanttChartSquare, Blocks, Gem } from 'lucide-react';
+import { GanttChartSquare, Notebook, Film } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -10,19 +10,19 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: 'Web Design',
+    title: 'Digital & Physical Advertisements',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
   {
-    icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: 'Web Development',
+    icon: <Notebook size={72} strokeWidth={0.8} />,
+    title: 'Logo & Branding Creation',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
   {
-    icon: <Gem size={72} strokeWidth={0.8} />,
-    title: 'App Development',
+    icon: <Film size={72} strokeWidth={0.8} />,
+    title: 'Animation & Video Production',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
@@ -37,10 +37,10 @@ const Services = () => {
         </h2>
         {/* Grid Items */}
         <div className='grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8'>
-          {servicesData.map((item, index)=> {
+          {servicesData.map((item, index) => {
             return (
               <Card
-                className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative'
+                className='mx-auto w-full max-w-[424px] xxl:max-w-[550px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative'
                 key={index}
               >
                 <CardHeader className='text-primary absolute -top-[60px]'>
@@ -49,8 +49,8 @@ const Services = () => {
                   </div>
                 </CardHeader>
                 <CardContent className='text-center'>
-                  <CardTitle className='mb-4'>{item.title}</CardTitle>
-                  <CardDescription className='text-lg'>
+                  <CardTitle className='mb-2 text-2xl relative -top-[3vh]'>{item.title}</CardTitle>
+                  <CardDescription className='text-lg xxl:text-xl'>
                     {item.description}
                   </CardDescription>
                 </CardContent>
