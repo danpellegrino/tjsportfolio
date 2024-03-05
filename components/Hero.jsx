@@ -94,8 +94,10 @@ const Hero = () => {
             />
           </div>
         </div>
+
+        </div>
         {/* Icons */}
-        <div className='hidden md:flex absolute left-[48.6vw] bottom-12 xl:bottom-12 animate-bounce'>
+      <div className='hidden md:flex absolute justify-center w-full bottom-12 animate-bounce'>
           <RiArrowDownSLine className='text-3xl text-primary' />
         </div>
       </div>
