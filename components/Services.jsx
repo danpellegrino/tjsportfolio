@@ -1,4 +1,4 @@
-import { GanttChartSquare, Blocks, Gem } from 'lucide-react';
+import { GanttChartSquare, Notebook, Film } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -10,19 +10,19 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: 'Web Design',
+    title: 'Digital & Physical Advertisements',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
   {
-    icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: 'Web Development',
+    icon: <Notebook size={72} strokeWidth={0.8} />,
+    title: 'Logo & Branding Creation',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
   {
-    icon: <Gem size={72} strokeWidth={0.8} />,
-    title: 'App Development',
+    icon: <Film size={72} strokeWidth={0.8} />,
+    title: 'Animation & Video Production',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
