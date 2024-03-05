@@ -1,7 +1,11 @@
 # TJSPortfolio
 
 <p align="center">
-  <img src="public/front.png" alt="Next.js Portfolio Website">
+  <img src="public/front_light.png" alt="Next.js Portfolio Website Light Mode">
+</p>
+
+<p align="center">
+  <img src="public/front_dark.png" alt="Next.js Portfolio Website Dark Mode">
 </p>
 
 <p align="center">
