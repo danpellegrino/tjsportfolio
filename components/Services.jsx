@@ -1,4 +1,4 @@
-import { GanttChartSquare, Notebook, Film } from 'lucide-react';
+import { GanttChartSquare, NotebookPen, Film } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -15,7 +15,7 @@ const servicesData = [
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
   },
   {
-    icon: <Notebook size={72} strokeWidth={0.8} />,
+    icon: <NotebookPen size={72} strokeWidth={0.8} />,
     title: 'Logo & Branding Creation',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
