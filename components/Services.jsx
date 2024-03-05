@@ -37,10 +37,10 @@ const Services = () => {
         </h2>
         {/* Grid Items */}
         <div className='grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8'>
-          {servicesData.map((item, index)=> {
+          {servicesData.map((item, index) => {
             return (
               <Card
-                className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative'
+                className='mx-auto w-full max-w-[424px] xxl:max-w-[550px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative'
                 key={index}
               >
                 <CardHeader className='text-primary absolute -top-[60px]'>
@@ -49,8 +49,8 @@ const Services = () => {
                   </div>
                 </CardHeader>
                 <CardContent className='text-center'>
-                  <CardTitle className='mb-4'>{item.title}</CardTitle>
-                  <CardDescription className='text-lg'>
+                  <CardTitle className='mb-2 text-2xl relative -top-[3vh]'>{item.title}</CardTitle>
+                  <CardDescription className='text-lg xxl:text-xl'>
                     {item.description}
                   </CardDescription>
                 </CardContent>
