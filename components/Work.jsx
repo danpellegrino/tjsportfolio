@@ -192,7 +192,7 @@ const Work = () => {
           </Link>
         </div>
         {/* slider*/}
-        <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
+        <div className="xl:max-w-[1000px] xxl2:max-w-[1400px] xl:absolute right-0 top-0">
           <Swiper
             className="h-[480px]"
             slidesPerView={1}
@@ -200,13 +200,16 @@ const Work = () => {
               640: {
                 slidesPerView: 2,
               },
+              1800: {
+                slidesPerView: 3,
+              },
             }}
             spaceBetween={30}
             modules={[Pagination]}
             pagination={{ clickable: true }}
           >
-            {/* show only the first 4 projects for the slides */}
-            {projectData.slice(0, 4).map((project, index) => {
+            {/* show only the first 5 projects for the slides */}
+            {projectData.slice(0, 5).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />
