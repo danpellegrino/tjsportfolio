@@ -236,8 +236,8 @@ const Hero = () => {
             </div>
             {/* Socials */}
             <Socials
-              containerStyles='flex gap-x-6 mx-auto xl:mx-0'
-              iconsStyles='text-primary text-[27px] hover:text-foreground transition-all'
+              containerStyles='flex gap-x-6 xxl:gap-x-10 mx-auto xl:mx-0'
+              iconsStyles='text-primary text-[27px] xxl:text-[30px] hover:text-foreground transition-all'
             />
           </div>
           {/* Image */}
