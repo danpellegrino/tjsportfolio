@@ -101,3 +101,7 @@
 .swiper-nav-btns button:hover {
   @apply bg-primary;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
