@@ -157,10 +157,10 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Placeholder Title (Personal Info)
+                      Know Me Better <span className="text-secondary">!</span>
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      modern graphic designer
+                      Student, Graphic Designer, and Creative Innovator
                     </p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-4">
@@ -190,7 +190,7 @@ const About = () => {
                 <TabsContent value="qualifications">
                   <div>
                     <h3 className="h3 mb-8 text-center xl:text-left">
-                      Placeholder Title (Qualifications)
+                      Qualifications
                     </h3>
                     {/* Experience & Education Wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8">
@@ -274,7 +274,9 @@ const About = () => {
                 {/* Skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Placeholder Title (Skills)</h3>
+                    <h3 className="h3 mb-8">
+                      Skills <span className="text-secondary">&</span> Tools
+                    </h3>
                     {/* Skills */}
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
