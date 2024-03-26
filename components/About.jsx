@@ -35,7 +35,7 @@ const infoData = [
   },
   {
     icon: <HomeIcon size={20} />,
-    text: "101 Lowell Avenue Utica, NY, USA",
+    text: "Saratoga Springs, NY",
   },
 ];
 
