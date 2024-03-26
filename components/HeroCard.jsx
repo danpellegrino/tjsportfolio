@@ -24,11 +24,11 @@ const HeroCard = ({ project }) => {
       <CardHeader className="p-0">
         {/* image */}
         {project.image && (
-          <div className="relative w-full xxl:h-[570px] xl:h-[400px] flex items-center justify-center bg-primary/15 dark:bg-secondary/20 xl:bg-work_project_bg xl:bg-cover xl:bg-no-repeat overflow-hidden">
+          <div className="relative w-full xxl:h-[570px] xl:h-[390px] flex items-center justify-center bg-primary/15 dark:bg-secondary/20 xl:bg-work_project_bg xl:bg-cover xl:bg-no-repeat overflow-hidden">
             <Image
               className={`absolute drop-shadow-2xl`}
               src={project.image}
-              width={325}
+              width={project.width || project.height || 250}
               height={project.height || project.width || 250}
               alt={project.name}
               priority
