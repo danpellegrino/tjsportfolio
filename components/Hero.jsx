@@ -289,7 +289,6 @@ const Hero = () => {
               badgeText='Happy Clients'
             />
             */}
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             {/* slider*/}
             <div className="xl:absolute xxl:max-w-[850px] xxl2:max-w-[950px] xl:max-w-[600px] xxl:-right-1 xl:right-0 xxl:-top-[4vh] xl:top-[4vh]">
               <Swiper
