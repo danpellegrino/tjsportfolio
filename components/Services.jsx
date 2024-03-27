@@ -49,7 +49,7 @@ const Services = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardTitle className="mb-2 text-2xl relative -top-[3vh]">
+                  <CardTitle className="mb-2 text-2xl relative -top-[1vh]">
                     {item.title}
                   </CardTitle>
                   <CardDescription className="text-lg xxl:text-xl">
