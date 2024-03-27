@@ -10,21 +10,21 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: 'Digital & Physical Advertisements',
+    title: "Digital & Physical Advertisements",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      "Let's unlock a brand's potential with tailored digital and physical ads, reaching your audience wherever they are online or in person.",
   },
   {
     icon: <NotebookPen size={72} strokeWidth={0.8} />,
-    title: 'Logo & Branding Creation',
+    title: "Logo & Branding Creation",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      "Crafting a unique logo and personal brand is like designing a fingerprint for your identity. Explore the capabilities of a brand image and overall impact with personalized designs that speak to your wants and needs.",
   },
   {
     icon: <Film size={72} strokeWidth={0.8} />,
-    title: 'Animation & Video Production',
+    title: "Animation & Video Production",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quasi libero quidem sit deserunt fuga.',
+      "Enhance your business and brand identity by adding movement and sound. Animation and video will create a living, breathing world that enhances the overall quality of a brand that audiences will want to explore.",
   },
 ];
 
