@@ -29,7 +29,7 @@ import { Pagination } from "swiper/modules";
 const projectData = [
   {
     image: "/work/logo/AWLogoExplosion.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "logo",
     name: "Apocalypse Week Logo",
@@ -71,7 +71,7 @@ const projectData = [
   },
   {
     image: "/work/poster/ExecutiveDebateSGU2024.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "poster",
     name: "SGU Executive Debate Poster",
@@ -81,7 +81,7 @@ const projectData = [
   },
   {
     image: "/work/poster/Fall 2022 Senate Interest Form Poster.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "poster",
     name: "SGU Senate Interest Form Poster",
@@ -91,7 +91,7 @@ const projectData = [
   },
   {
     image: "/work/poster/Hiring Org Heads.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "poster",
     name: "SGU Organizational Head Hiring Poster",
@@ -101,7 +101,7 @@ const projectData = [
   },
   {
     image: "/work/poster/Spring 2023 Election Poster.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "poster",
     name: "SGU Spring 2023 Election Poster",
@@ -111,7 +111,7 @@ const projectData = [
   },
   {
     image: "/work/poster/Positions.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "poster",
     name: "SGU PR Positions Poster",
@@ -121,7 +121,7 @@ const projectData = [
   },
   {
     image: "/work/poster/TFT Org Head Post.png",
-    width: 247,
+    width: 250,
     height: 250,
     category: "poster",
     name: "The Factory Times Org Head Poster",
@@ -131,7 +131,7 @@ const projectData = [
   },
   {
     image: "/work/poster/TurkeyDonation.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "poster",
     name: "SGU Türkiye Donation Poster",
@@ -141,7 +141,7 @@ const projectData = [
   },
   {
     image: "/work/poster/WCM Org Head Post.png",
-    width: 247,
+    width: 250,
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Instagram Post",
@@ -151,7 +151,7 @@ const projectData = [
   },
   {
     image: "/work/poster/WCM Org Head Poster.png",
-    width: 200,
+    width: 250,
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Poster",
@@ -161,7 +161,7 @@ const projectData = [
   },
   {
     image: "/work/poster/WEB Org Head Post.png",
-    width: 247,
+    width: 250,
     height: 250,
     category: "poster",
     name: "Wildcat Events Board Org Head Poster",
@@ -230,7 +230,7 @@ const Hero = () => {
               Graphic Designer
             </div>
             <h1
-              className={`${myFont.className} h1 mb-4 text-white antialiased font-sans`}
+              className={`${myFont.className} h1 xl:text-[65px] mb-4 text-white antialiased font-sans`}
             >
               Hello, my name is Tyler Senecal
             </h1>
@@ -289,11 +289,10 @@ const Hero = () => {
               badgeText='Happy Clients'
             />
             */}
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             {/* slider*/}
-            <div className="xl:absolute xxl:max-w-[850px] xxl2:max-w-[950px] xl:max-w-[600px] xxl:-right-1 xl:right-0 xxl:-top-[4vh] xl:top-[4vh]">
+            <div className="xl:absolute xxl:max-w-[850px] xxl2:max-w-[950px] xl:max-w-[700px] xxl:-right-1 xl:right-0 xxl:-top-[4vh] xl:top-[0vh]">
               <Swiper
-                className="absolute xxl:h-[580px] xl:h-[410px]"
+                className="absolute xxl:h-[580px] xl:h-[400px]"
                 slidesPerView={1}
                 spaceBetween={30}
                 modules={[Pagination]}

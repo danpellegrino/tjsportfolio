@@ -35,7 +35,7 @@ const infoData = [
   },
   {
     icon: <HomeIcon size={20} />,
-    text: "101 Lowell Avenue Utica, NY, USA",
+    text: "Saratoga Springs, NY",
   },
 ];
 
@@ -128,26 +128,23 @@ const About = () => {
         </h2>
         <div className="flex flex-col xl:flex-row">
           {/* Image */}
-          <div className="hidden xl:flex flex-1 relative">
+          <div className="hidden xl:flex flex-1 relative -top-[50px]">
             <DevImg
-              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
+              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[520px] h-[520px] bg-no-repeat relative"
               imgSrc="/about/developer.png"
             />
           </div>
           {/* Tabs */}
           <div className="flex-1">
             <Tabs defaultValue="personal">
-              <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
-                <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
+              <TabsList className="w-full grid grid-cols-3 xl:max-w-[520px] border dark:border-none">
+                <TabsTrigger className="w-auto" value="personal">
                   Personal Info
                 </TabsTrigger>
-                <TabsTrigger
-                  className="w-[162px] xl:w-auto"
-                  value="qualifications"
-                >
+                <TabsTrigger className="w-auto" value="qualifications">
                   Qualifications
                 </TabsTrigger>
-                <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
+                <TabsTrigger className="w-auto" value="skills">
                   Skills
                 </TabsTrigger>
               </TabsList>

@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
       <CardHeader className="p-0">
         {/* image */}
         {project.image && (
-          <div className="relative w-full h-[300px] flex items-center justify-center bg-primary/15 dark:bg-secondary/20 xl:bg-work_project_bg xl:bg-cover xl:bg-[110%] xl:bg-no-repeat overflow-hidden">
+          <div className="relative w-full h-[300px] flex items-center justify-center bg-primary/15 dark:bg-secondary/20 xl:bg-work_project_bg xl:bg-cover xl:bg-no-repeat overflow-hidden">
             <Image
               className={`absolute drop-shadow-2xl`}
               src={project.image}

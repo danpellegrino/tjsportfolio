@@ -30,12 +30,12 @@ const Contact = () => {
             {/* mail */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>tylersenecal2@gmail.com</div>
+              <div>contact@tjs-designs.com</div>
             </div>
             {/* address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>101 Lowell Avenue, Utica NY 13502</div>
+              <div>Saratoga Springs, NY</div>
             </div>
             {/* phone */}
             <div className="flex items-center gap-x-8">
