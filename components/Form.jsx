@@ -27,6 +27,11 @@ const Form = () => {
     try {
       // Send email using Nodemailer
       setIsLoading(true);
+
+      toast({
+        title: "Sending email...",
+      });
+
       await fetch("/api/contact", {
         method: "POST",
         headers: {
@@ -38,14 +43,14 @@ const Form = () => {
       // Reset form
       resetForm();
 
-      // Show success message or redirect to a thank you page
-      console.log("Message sent successfully!");
-
       toast({
         title: "Email submitted successfully!",
       });
     } catch (error) {
       // Handle error
+      toast({
+        title: "Failed to send message",
+      });
       console.error("Failed to send message: ", error);
     } finally {
       // Enable submit button
