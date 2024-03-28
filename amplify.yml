@@ -6,8 +6,8 @@ frontend:
         - npm ci
     build:
       commands:
-        - REACT_APP_GOOGLE_EMAIL=${REACT_APP_GOOGLE_EMAIL}
-        - REACT_APP_GOOGLE_PASSWORD=${REACT_APP_GOOGLE_PASSWORD}
+        - echo "REACT_APP_GOOGLE_EMAIL=$REACT_APP_GOOGLE_EMAIL" >> .env
+        - echo "REACT_APP_GOOGLE_PASSWORD=$REACT_APP_GOOGLE_PASSWORD" >> .env
         - npm run build
   artifacts:
     baseDirectory: .next
