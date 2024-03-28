@@ -1,0 +1,19 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - REACT_APP_GOOGLE_EMAIL=${REACT_APP_GOOGLE_EMAIL}
+        - REACT_APP_GOOGLE_PASSWORD=${REACT_APP_GOOGLE_PASSWORD}
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - .next/cache/**/*
+      - node_modules/**/*

@@ -43,7 +43,9 @@ const Contact = () => {
               <div>+518 299 8486</div>
             </div>
           </div>
-          <Form />
+          <div className="relative xl:-top-10">
+            <Form />
+          </div>
         </div>
       </div>
     </section>
