@@ -1,30 +1,30 @@
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { AlignJustify } from 'lucide-react';
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { AlignJustify } from "lucide-react";
 
-import Nav from './Nav';
-import Logo from './Logo';
-import Socials from './Socials';
+import Nav from "./Nav";
+import Logo from "./Logo";
+import Socials from "./Socials";
 
 const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <AlignJustify className='cursor-pointer text-white' />
+        <AlignJustify className="cursor-pointer text-white" />
       </SheetTrigger>
       <SheetContent>
-        <div className='flex flex-col items-center justify-between h-full py-8'>
-          <div className='flex flex-col items-center gap-y-32'>
+        <div className="flex flex-col items-center justify-between h-full py-8">
+          <div className="flex flex-col items-center gap-y-32">
             <Logo />
             <Nav
-              containerStyles='flex flex-col absolute items-center gap-y-6 lg:gap-y-12 top-[35%]'
-              linkStyles='text-2xl md:text-3xl lg:text-4xl'
+              containerStyles="flex flex-col absolute items-center gap-y-6 lg:gap-y-12 top-[35%]"
+              linkStyles="text-2xl md:text-3xl lg:text-4xl"
             />
           </div>
-          <Socials containerStyles='flex gap-x-10' iconsStyles='text-2xl' />
+          <Socials containerStyles="flex gap-x-10" iconsStyles="text-2xl" />
         </div>
       </SheetContent>
     </Sheet>
   );
-}
+};
 
-export default MobileNav
+export default MobileNav;
