@@ -52,7 +52,7 @@ const Services = () => {
                   <CardTitle className="mb-2 text-2xl relative -top-[1vh]">
                     {item.title}
                   </CardTitle>
-                  <CardDescription className="text-lg xxl:text-xl">
+                  <CardDescription className="text-lg xxl:text-xl text-left xl:text-center">
                     {item.description}
                   </CardDescription>
                 </CardContent>

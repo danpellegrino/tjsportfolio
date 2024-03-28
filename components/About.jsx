@@ -137,7 +137,7 @@ const About = () => {
           {/* Tabs */}
           <div className="flex-1">
             <Tabs defaultValue="personal">
-              <TabsList className="w-full grid grid-cols-3 xl:max-w-[520px] border dark:border-none">
+              <TabsList className="w-full grid grid-cols-3 xl:max-w-[520px] border">
                 <TabsTrigger className="w-auto" value="personal">
                   Personal Info
                 </TabsTrigger>
@@ -160,11 +160,11 @@ const About = () => {
                       Student, Graphic Designer, and Creative Innovator
                     </p>
                     {/* Icons */}
-                    <div className="grid xl:grid-cols-2 gap-4 mb-4">
+                    <div className="grid xl:grid-cols-2 gap-4 mb-4 text-left">
                       {infoData.map((item, index) => {
                         return (
                           <div
-                            className="flex items-center gap-x-4 mx-auto xl:mx-0"
+                            className="flex items-center gap-x-4 mx-0"
                             key={index}
                           >
                             <div className="text-primary">{item.icon}</div>
