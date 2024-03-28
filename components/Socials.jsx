@@ -10,10 +10,12 @@ import {
 import Link from "next/link";
 
 const icons = [
+  /*
   {
     path: "https://www.upwork.com/freelancers/~015d66e8259ccfeb32",
     name: <FontAwesomeIcon icon={faUpwork} />,
   },
+  */
   {
     path: "http://instagram.com/tjs_designss",
     name: <FontAwesomeIcon icon={faInstagram} />,
