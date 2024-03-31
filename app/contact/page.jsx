@@ -28,7 +28,7 @@ const Contact = () => {
           {/* illustration */}
           <Image
             src={`/contact/illustration-${
-              theme === "dark" ? "dark" : "light"
+              theme === "light" ? "light" : "dark"
             }.svg`}
             width={500}
             height={500}
