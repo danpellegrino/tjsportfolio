@@ -121,17 +121,18 @@ const About = () => {
   };
 
   return (
-    <section className="xl:h-[860px] pb-12 md:py-12 lg:py-36">
+    <section className="xl:h-[860px] pb-12 md:py-12 lg:py-36 bg-gradient-to-b from-indigo-300 from-0% to-white to-5% md:to-25% dark:bg-none">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About me
         </h2>
         <div className="flex flex-col xl:flex-row">
           {/* Image */}
-          <div className="hidden xl:flex flex-1 relative -top-[50px]">
+          <div className="hidden xl:flex flex-1 relative my-auto">
             <DevImg
-              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[520px] h-[520px] bg-no-repeat relative"
-              imgSrc="/about/developer.png"
+              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[802px] h-[520px] bg-[length:802px_520px] bg-no-repeat relative -left-[50px]"
+              lightImgSrc="/about/developer-light.webp"
+              darkImgSrc="/about/developer-dark.webp"
             />
           </div>
           {/* Tabs */}

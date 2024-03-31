@@ -221,7 +221,7 @@ const projectData = [
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 xxl:py-36 xxl2:py-48 md:h-[98vh] lg:h-[84vh] xl:pt-28 bg-gradient-to-b from-black from-80% to-white to-100% dark:bg-none">
+    <section className="py-12 xl:py-24 xxl:py-36 xxl2:py-48 md:h-[98vh] lg:h-[84vh] xl:pt-28 bg-gradient-to-b from-[#000033] from-65% to-indigo-300 to-100% dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* Text */}
@@ -230,7 +230,7 @@ const Hero = () => {
               Graphic Designer
             </div>
             <h1
-              className={`${myFont.className} h1 xl:text-[65px] mb-4 text-white antialiased font-sans`}
+              className={`${myFont.className} h1 xl:text-[65px] mb-4 text-white antialiased font-sans drop-shadow-white-2xl`}
             >
               Hello, my name is Tyler Senecal
             </h1>
