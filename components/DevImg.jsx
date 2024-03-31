@@ -7,8 +7,8 @@ import { useTheme } from "next-themes";
 const DevImg = ({ containerStyles, lightImgSrc, darkImgSrc }) => {
   const { theme } = useTheme();
   const background =
-    theme === "dark" ? "/about/shape-dark.svg" : "/about/shape-light.svg";
-  const image = theme === "dark" ? lightImgSrc : darkImgSrc;
+    theme === "light" ? "/about/shape-light.svg" : "/about/shape-dark.svg";
+  const image = theme === "light" ? darkImgSrc : lightImgSrc;
   return (
     <div className={`${containerStyles}`}>
       <Image
