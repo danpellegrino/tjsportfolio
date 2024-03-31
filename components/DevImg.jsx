@@ -1,9 +1,14 @@
 "use client";
+import React from "react";
+
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
 const DevImg = ({ containerStyles, lightImgSrc, darkImgSrc }) => {
   const { theme } = useTheme();
+  const background =
+    theme === "dark" ? "/about/shape-dark.svg" : "/about/shape-light.svg";
+  const image = theme === "dark" ? lightImgSrc : darkImgSrc;
   return (
     <div className={`${containerStyles}`}>
       <Image
@@ -11,7 +16,7 @@ const DevImg = ({ containerStyles, lightImgSrc, darkImgSrc }) => {
         height="0"
         sizes="100vw"
         className="w-full h-auto drop-shadow-3xl dark:drop-shadow-white-xl"
-        src={`/about/shape-${theme === "dark" ? "dark" : "light"}.svg`}
+        src={background}
         priority
         alt=""
       />
@@ -20,7 +25,7 @@ const DevImg = ({ containerStyles, lightImgSrc, darkImgSrc }) => {
         height="0"
         sizes="100vw"
         className="w-full h-auto absolute top-0 left-0 "
-        src={`${theme === "dark" ? lightImgSrc : darkImgSrc}`}
+        src={image}
         priority
         alt=""
       />

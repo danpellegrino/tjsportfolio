@@ -92,6 +92,7 @@ module.exports = {
         '3xl': '0 0 25px rgba(0, 0, 0, 0.7)',
         'white-xl': '0 0 1000px rgba(255, 255, 255, 1)',
         'white-2xl': '0 0 7px rgba(255, 255, 255, 0.6)',
+        'white-3xl': '0 0 25px rgba(255, 255, 255, 1)',
         'blue-xl': '0 0 25px rgba(23, 252, 255, 0.75)',
         'blue-2xl': '0 0 50px rgba(23, 252, 255, 0.95)',
         'blue-3xl': '0 0 25px rgba(23, 252, 255, 0.85)',
