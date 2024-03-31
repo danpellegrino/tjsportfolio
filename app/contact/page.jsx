@@ -1,8 +1,13 @@
+"use client";
+
 import { MailIcon, HomeIcon, PhoneCall } from "lucide-react";
+import { useTheme } from "next-themes";
 // components
 import Form from "@/components/Form";
+import Image from "next/image";
 
 const Contact = () => {
+  const { theme } = useTheme();
   return (
     <section>
       <div className="container mx-auto">
@@ -21,7 +26,15 @@ const Contact = () => {
             </p>
           </div>
           {/* illustration */}
-          <div className="hidden xl:flex mx-auto w-[250px] bg-contact_illustration_light dark:bg-contact_illustration_dark bg-contain bg-[center_top_3rem] bg-no-repeat" />
+          <Image
+            src={`/contact/illustration-${
+              theme === "dark" ? "dark" : "light"
+            }.svg`}
+            width={500}
+            height={500}
+            alt="contact illustration"
+            className="hidden xl:flex mx-auto w-[250px] drop-shadow-3xl dark:drop-shadow-blue-xl"
+          />
         </div>
         {/* info text & form */}
         <div className="grid xl:grid-cols-2 mb-24 xl:mb-32">
