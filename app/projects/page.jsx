@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 import React, { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
@@ -19,7 +19,8 @@ const projectData = [
     height: 250,
     category: "logo",
     name: "Apocalypse Week Logo",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Illustrator: client wants a logo for Apocalypse Week, a week of student activity events",
     url: "/",
     frontPage: true,
   },
@@ -41,7 +42,8 @@ const projectData = [
     height: 250,
     category: "logo",
     name: "Liquados Logo",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Illustrator: client wants a logo for a refreshing dairy-based fruit juice company",
     url: "/",
     frontPage: false,
   },
@@ -51,7 +53,7 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Interstellar Poster Concept",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description: "Photoshop: client wanted a fan-made movie poster",
     url: "/",
     frontPage: false,
   },
@@ -61,7 +63,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Executive Debate Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client requested a debate event poster for a student government election",
     url: "/",
     frontPage: true,
   },
@@ -71,7 +74,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Senate Interest Form Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client needed interest in senator positions for student government (SGU)",
     url: "/",
     frontPage: true,
   },
@@ -81,7 +85,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Organizational Head Hiring Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs org head positions filled for events, club funding, esports, etc",
     url: "/",
     frontPage: true,
   },
@@ -91,7 +96,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Spring 2023 Election Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs a poster for the student government election (SGU)",
     url: "/",
     frontPage: false,
   },
@@ -101,7 +107,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU PR Positions Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs public relations team positions filled (SGU)",
     url: "/",
     frontPage: false,
   },
@@ -111,7 +118,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "The Factory Times Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position poster specific to Factory times",
     url: "/",
     frontPage: false,
   },
@@ -121,7 +129,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Türkiye Donation Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: helped client promote donations toward the Turkey earthquake victims",
     url: "/",
     frontPage: false,
   },
@@ -131,7 +140,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Instagram Post",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position post specific to Wildcat Media",
     url: "/",
     frontPage: false,
   },
@@ -141,7 +151,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position poster specific to Wildcat Media",
     url: "/",
     frontPage: false,
   },
@@ -151,7 +162,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Events Board Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position post specific to Wildcat Events board",
     url: "/",
     frontPage: false,
   },
@@ -173,7 +185,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Keep Clear Poster Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Photoshop: client requested a movie poster for an animation assignment",
     url: "/",
     frontPage: false,
   },
@@ -189,20 +202,6 @@ const projectData = [
     frontPage: true,
   },
   */
-  {
-    category: "video",
-    name: "video placeholder",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    url: "/",
-    frontPage: false,
-  },
-  {
-    category: "extra",
-    name: "extra placeholder",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    url: "/",
-    frontPage: false,
-  },
 ];
 
 // remove category duplicates
@@ -229,7 +228,7 @@ const Projects = () => {
         </h2>
         {/* tabs */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-5 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+          <TabsList className="w-full grid h-full md:grid-cols-3 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
@@ -250,9 +249,9 @@ const Projects = () => {
                 <TabsContent value={category} key={index}>
                   <motion.main
                     variants={variants}
-                    initial='hidden'
-                    animate='enter'
-                    transition={{ type: 'linear', delay: 0.0, duration: 0.4 }}
+                    initial="hidden"
+                    animate="enter"
+                    transition={{ type: "linear", delay: 0.0, duration: 0.4 }}
                   >
                     <ProjectCard project={project} />
                   </motion.main>
@@ -261,8 +260,8 @@ const Projects = () => {
             })}
           </div>
         </Tabs>
-      </div >
-    </section >
+      </div>
+    </section>
   );
 };
 

@@ -1,14 +1,14 @@
 "use client";
 import Link from "next/link";
 import { Button } from "./ui/button";
-import { Download, Send } from 'lucide-react';
+import { Download, Send } from "lucide-react";
 
-import localFont from 'next/font/local'
+import localFont from "next/font/local";
 const myFont = localFont({
-  src: '../fonts/kimberley.otf',
-  weight: '200',
-  style: 'normal',
-})
+  src: "../fonts/kimberley.otf",
+  weight: "200",
+  style: "normal",
+});
 
 import {
   RiBriefcase4Fill,
@@ -16,7 +16,7 @@ import {
   RiTodoFill,
   RiArrowUpSLine,
   RiArrowDownSLine,
-} from 'react-icons/ri';
+} from "react-icons/ri";
 
 // Components
 import DevImg from "./DevImg";
@@ -33,7 +33,8 @@ const projectData = [
     height: 250,
     category: "logo",
     name: "Apocalypse Week Logo",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Illustrator: client wants a logo for Apocalypse Week, a week of student activity events",
     url: "/",
     frontPage: true,
   },
@@ -55,7 +56,8 @@ const projectData = [
     height: 250,
     category: "logo",
     name: "Liquados Logo",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Illustrator: client wants a logo for a refreshing dairy-based fruit juice company",
     url: "/",
     frontPage: false,
   },
@@ -65,7 +67,7 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Interstellar Poster Concept",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description: "Photoshop: client wanted a fan-made movie poster",
     url: "/",
     frontPage: false,
   },
@@ -75,7 +77,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Executive Debate Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client requested a debate event poster for a student government election",
     url: "/",
     frontPage: true,
   },
@@ -85,7 +88,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Senate Interest Form Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client needed interest in senator positions for student government (SGU)",
     url: "/",
     frontPage: true,
   },
@@ -95,7 +99,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Organizational Head Hiring Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs org head positions filled for events, club funding, esports, etc",
     url: "/",
     frontPage: true,
   },
@@ -105,7 +110,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Spring 2023 Election Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs a poster for the student government election (SGU)",
     url: "/",
     frontPage: false,
   },
@@ -115,7 +121,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU PR Positions Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs public relations team positions filled (SGU)",
     url: "/",
     frontPage: false,
   },
@@ -125,7 +132,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "The Factory Times Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position poster specific to Factory times",
     url: "/",
     frontPage: false,
   },
@@ -135,7 +143,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Türkiye Donation Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: helped client promote donations toward the Turkey earthquake victims",
     url: "/",
     frontPage: false,
   },
@@ -145,7 +154,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Instagram Post",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position post specific to Wildcat Media",
     url: "/",
     frontPage: false,
   },
@@ -155,7 +165,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position poster specific to Wildcat Media",
     url: "/",
     frontPage: false,
   },
@@ -165,7 +176,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Events Board Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position post specific to Wildcat Events board",
     url: "/",
     frontPage: false,
   },
@@ -187,7 +199,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Keep Clear Poster Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Photoshop: client requested a movie poster for an animation assignment",
     url: "/",
     frontPage: false,
   },
@@ -203,58 +216,49 @@ const projectData = [
     frontPage: true,
   },
   */
-  {
-    category: "video",
-    name: "video placeholder",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    url: "/",
-    frontPage: false,
-  },
-  {
-    category: "extra",
-    name: "extra placeholder",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    url: "/",
-    frontPage: false,
-  },
 ];
 
 const Hero = () => {
   return (
-    <section className='py-12 xl:py-24 xxl:py-36 xxl2:py-48 md:h-[98vh] lg:h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none'>
+    <section className="py-12 xl:py-24 xxl:py-36 xxl2:py-48 md:h-[98vh] lg:h-[84vh] xl:pt-28 bg-gradient-to-b from-[#000033] from-65% to-indigo-300 to-100% dark:bg-none">
       <div className="container mx-auto">
-        <div className='flex justify-between gap-x-8'>
+        <div className="flex justify-between gap-x-8">
           {/* Text */}
-          <div className='flex max-w-[680px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
-            <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>
+          <div className="flex max-w-[680px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
+            <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Graphic Designer
             </div>
-            <h1 className={`${myFont.className} h1 mb-4 text-white antialiased font-sans`}>Hello, my name is Tyler Senecal</h1>
-            <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
-              I am a graphic designer based in Saratoga Springs,
-              New York specializing in marketing, branding, and
-              digital advertising.
+            <h1
+              className={`${myFont.className} h1 xl:text-[65px] mb-4 text-white antialiased font-sans drop-shadow-white-2xl`}
+            >
+              Hello, my name is Tyler Senecal
+            </h1>
+            <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
+              I am a graphic designer based in Saratoga Springs, New York
+              specializing in marketing, branding, and digital advertising.
             </p>
             {/* Buttons */}
-            <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
-              <Link href='/contact'>
-                <Button className='gap-x-2 w-[225px]'>
+            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+              <Link href="/contact">
+                <Button className="gap-x-2 w-[225px]">
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant='secondary' className='gap-x-2 w-[225px]'>
-                Download Resume
-                <Download size={18} />
-              </Button>
+              <a href="/ResumeTJS.pdf" download="ResumeTJS">
+                <Button variant="secondary" className="gap-x-2 w-[225px]">
+                  Download Resume
+                  <Download size={18} />
+                </Button>
+              </a>
             </div>
             {/* Socials */}
             <Socials
-              containerStyles='flex gap-x-6 xxl:gap-x-10 mx-auto xl:mx-0'
-              iconsStyles='text-primary text-[27px] xxl:text-[30px] hover:text-foreground transition-all'
+              containerStyles="flex gap-x-6 xxl:gap-x-10 mx-auto xl:mx-0"
+              iconsStyles="text-primary text-[27px] xxl:text-[30px] hover:text-foreground transition-all"
             />
           </div>
           {/* Image */}
-          <div className='hidden xl:flex relative'>
+          <div className="hidden xl:flex relative">
             {/* Badge 1 */}
             {/*
             <Badge
@@ -284,37 +288,36 @@ const Hero = () => {
               badgeText='Happy Clients'
             />
             */}
-            <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
             {/* slider*/}
-            <div className="xl:absolute xxl:max-w-[850px] xxl2:max-w-[950px] xl:max-w-[600px] xxl:-right-1 xl:right-0 xxl:-top-[4vh] xl:top-[4vh]">
+            <div className="xl:absolute xxl:max-w-[850px] xxl2:max-w-[950px] xl:max-w-[700px] xxl:-right-1 xl:right-0 xxl:-top-[4vh] xl:top-[0vh]">
               <Swiper
-                className="absolute xxl:h-[580px] xl:h-[410px]"
+                className="absolute xxl:h-[580px] xl:h-[400px]"
                 slidesPerView={1}
                 spaceBetween={30}
                 modules={[Pagination]}
                 pagination={{ clickable: true }}
               >
                 {/* show only the projects with frontPage set to true for the slides */}
-                {projectData.filter(project => project.frontPage).map((project, index) => {
-                  return (
-                    <SwiperSlide key={index}>
-                      <HeroCard project={project} />
-                    </SwiperSlide>
-                  );
-                })}
-
+                {projectData
+                  .filter((project) => project.frontPage)
+                  .map((project, index) => {
+                    return (
+                      <SwiperSlide key={index}>
+                        <HeroCard project={project} />
+                      </SwiperSlide>
+                    );
+                  })}
               </Swiper>
             </div>
           </div>
         </div>
-
       </div>
       {/* Icons */}
-      <div className='hidden md:flex absolute justify-center w-full bottom-12 animate-bounce'>
-        <RiArrowDownSLine className='text-3xl text-primary' />
+      <div className="hidden md:flex absolute justify-center w-full bottom-12 animate-bounce">
+        <RiArrowDownSLine className="text-3xl text-primary" />
       </div>
     </section>
   );
 };
 
-export default Hero
+export default Hero;

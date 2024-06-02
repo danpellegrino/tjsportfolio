@@ -22,7 +22,8 @@ const projectData = [
     height: 250,
     category: "logo",
     name: "Apocalypse Week Logo",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Illustrator: client wants a logo for Apocalypse Week, a week of student activity events",
     url: "/",
     frontPage: true,
   },
@@ -44,7 +45,8 @@ const projectData = [
     height: 250,
     category: "logo",
     name: "Liquados Logo",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Illustrator: client wants a logo for a refreshing dairy-based fruit juice company",
     url: "/",
     frontPage: false,
   },
@@ -54,7 +56,7 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Interstellar Poster Concept",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description: "Photoshop: client wanted a fan-made movie poster",
     url: "/",
     frontPage: false,
   },
@@ -64,7 +66,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Executive Debate Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client requested a debate event poster for a student government election",
     url: "/",
     frontPage: true,
   },
@@ -74,7 +77,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Senate Interest Form Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client needed interest in senator positions for student government (SGU)",
     url: "/",
     frontPage: true,
   },
@@ -84,7 +88,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Organizational Head Hiring Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs org head positions filled for events, club funding, esports, etc",
     url: "/",
     frontPage: true,
   },
@@ -94,7 +99,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Spring 2023 Election Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs a poster for the student government election (SGU)",
     url: "/",
     frontPage: false,
   },
@@ -104,7 +110,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU PR Positions Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: client needs public relations team positions filled (SGU)",
     url: "/",
     frontPage: false,
   },
@@ -114,7 +121,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "The Factory Times Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position poster specific to Factory times",
     url: "/",
     frontPage: false,
   },
@@ -124,7 +132,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "SGU Türkiye Donation Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva + Photoshop: helped client promote donations toward the Turkey earthquake victims",
     url: "/",
     frontPage: false,
   },
@@ -134,7 +143,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Instagram Post",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position post specific to Wildcat Media",
     url: "/",
     frontPage: false,
   },
@@ -144,7 +154,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Media Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position poster specific to Wildcat Media",
     url: "/",
     frontPage: false,
   },
@@ -154,7 +165,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Wildcat Events Board Org Head Poster",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Canva: client wants org head position post specific to Wildcat Events board",
     url: "/",
     frontPage: false,
   },
@@ -176,7 +188,8 @@ const projectData = [
     height: 250,
     category: "poster",
     name: "Keep Clear Poster Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
+    description:
+      "Photoshop: client requested a movie poster for an animation assignment",
     url: "/",
     frontPage: false,
   },
@@ -192,20 +205,6 @@ const projectData = [
     frontPage: true,
   },
   */
-  {
-    category: "video",
-    name: "video placeholder",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    url: "/",
-    frontPage: false,
-  },
-  {
-    category: "extra",
-    name: "extra placeholder",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing.",
-    url: "/",
-    frontPage: false,
-  },
 ];
 
 const Work = () => {
@@ -213,10 +212,10 @@ const Work = () => {
     <section className="relative mb-12 xl:mb-48">
       <div className="container mx-auto">
         {/* text */}
-        <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
+        <div className="max-w-[300px] mx-auto xl:mx-0 text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Lorem, ipsum dolor sit amet consectetur adipiscing elit.
+            Check out what I've recently been working on
           </p>
           <Link href="/projects">
             <Button className="w-[165px]">All projects</Button>
