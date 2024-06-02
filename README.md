@@ -31,18 +31,18 @@ Here are some upcoming features that we're planning to implement. Stay tuned!
 
 - [x] Feature 1
   - Create a basic template for the website
-- [ ] Feature 2
+- [x] Feature 2
   - Create an image/video viewer
   - Design custom assets for the website
     - Develop a color scheme
     - Create a custom gradient scroll progress bar
     - Design custom icons
     - Create custom illustrations
-- [ ] Feature 3
+- [x] Feature 3
   - Make a functioning contact form with validation
   - Integrate Google Analytics for tracking website traffic
   - Improve SEO for better visibility on search engines
-- [ ] Feature 4
+- [x] Feature 4
   - Host the Portfolio Website up on [Amazon S3](https://aws.amazon.com/s3/)
     - Set up an Amazon S3 bucket
     - Configure the bucket for website hosting
@@ -61,22 +61,15 @@ Here are some upcoming features that we're planning to implement. Stay tuned!
     - Integrate the desktop application with the portfolio website
     - Test the application for bugs and performance issues
     - Deploy the application and monitor its usage
-  
+
 ## Installation
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
 
 1. `npm install` or `yarn`;
-2. `yarn dev`;
+2. `npm run dev` or `yarn dev`;
 
 To view the project open `http://localhost:3000`.
-
-## Contributing
-
-1. Fork this repository;
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
 
 ## License
 
