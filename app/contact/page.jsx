@@ -20,10 +20,6 @@ const Contact = () => {
               Say Hello 👋
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
-            <p className="subtitle max-w-[380px]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat,
-              nostrum.
-            </p>
           </div>
           {/* illustration */}
           <Image
